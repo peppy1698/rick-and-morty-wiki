@@ -41,7 +41,10 @@ const Episodes = () => {
         </div>
         <div className='col-lg-8 col-12'>
           <div className='row'>
-            <Cards path='/location/' results={results} />
+            <Cards
+              path='https://peppy1698.github.io/rick-and-morty-wiki/episodes/'
+              results={results}
+            />
           </div>
         </div>
       </div>

@@ -42,7 +42,10 @@ const Location = () => {
         </div>
         <div className='col-lg-8 col-12 '>
           <div className='row'>
-            <Cards page='/location/' results={results} />
+            <Cards
+              page='https://peppy1698.github.io/rick-and-morty-wiki/location/'
+              results={results}
+            />
           </div>
         </div>
       </div>

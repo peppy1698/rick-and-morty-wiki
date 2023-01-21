@@ -19,14 +19,32 @@ function App() {
       </div>
 
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/:id' element={<CardDetails />} />
+        <Route
+          path='https://peppy1698.github.io/rick-and-morty-wiki/'
+          element={<Home />}
+        />
+        <Route
+          path='https://peppy1698.github.io/rick-and-morty-wiki/:id'
+          element={<CardDetails />}
+        />
 
-        <Route path='/episodes' element={<Episodes />} />
-        <Route path='/episodes/:id' element={<CardDetails />} />
+        <Route
+          path='https://peppy1698.github.io/rick-and-morty-wiki/episodes'
+          element={<Episodes />}
+        />
+        <Route
+          path='https://peppy1698.github.io/rick-and-morty-wiki/episodes/:id'
+          element={<CardDetails />}
+        />
 
-        <Route path='/location' element={<Location />} />
-        <Route path='/location/:id' element={<CardDetails />} />
+        <Route
+          path='https://peppy1698.github.io/rick-and-morty-wiki/location'
+          element={<Location />}
+        />
+        <Route
+          path='https://peppy1698.github.io/rick-and-morty-wiki/location/:id'
+          element={<CardDetails />}
+        />
       </Routes>
     </Router>
   );
